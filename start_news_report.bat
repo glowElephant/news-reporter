@@ -1,6 +1,6 @@
 @echo off
 REM 1) 작업 디렉터리로 이동: 실제 경로로 수정하세요
-cd /d C:\path\to\news-reporter
+cd /d C:\Git\news-reporter
 
 REM 2) 가상환경 활성화 (venv를 쓰는 경우)
 call C:\Git\news-reporter\venv\Scripts\activate.bat
