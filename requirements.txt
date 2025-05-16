@@ -1,8 +1,9 @@
 streamlit
 requests
 beautifulsoup4
-apscheduler
+APScheduler
 pytz
 python-dotenv
-pytest           # (테스트용)
-APScheduler
+
+# 테스트
+pytest
