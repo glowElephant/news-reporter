@@ -4,6 +4,8 @@ beautifulsoup4
 APScheduler
 pytz
 python-dotenv
-
+pyautogui
+pillow
+opencv-python
 # 테스트
 pytest

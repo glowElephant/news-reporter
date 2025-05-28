@@ -24,3 +24,6 @@ MAX_ARTICLES = int(os.getenv("MAX_ARTICLES", 50))
 
 BASE_DIR      = os.path.dirname(os.path.dirname(__file__))
 FEED_SPEC_CSV = os.path.join(BASE_DIR, "data", "rss.csv")
+
+# RSS 피드 요청 타임아웃: (connect_timeout, read_timeout)
+FEED_TIMEOUT    = (3, 10)
